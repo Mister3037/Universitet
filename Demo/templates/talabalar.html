@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Talabalar Ro'yhati</title>
+</head>
+<body>
+   <h1>Bizda bor talabalar ro'yhati</h1>
+   {% for talaba in students %}
+   <h3>{{talaba.id}}.{{talaba}}</h3>
+    {% endfor %}
+</body>
+</html>
